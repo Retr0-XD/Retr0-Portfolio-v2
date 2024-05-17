@@ -1,0 +1,25 @@
+.icons-container {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  align-items: center; /* Center the icons vertically */
+  gap: 10px; /* Adjust spacing between icons */
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 768px) {
+  .icon {
+    width: 20px; /* Adjust size for tablets and small devices */
+    height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .icon {
+    width: 16px; /* Adjust size for mobile devices */
+    height: 16px;
+  }
+}
